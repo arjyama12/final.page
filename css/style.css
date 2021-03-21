@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(1, 1, 24);
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat-y;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+}
+.navbar{
+    display: flex;
+    position: relative;
+}
+.navbar .sidebar{
+    position: fixed;
+    text-decoration: none;
+    width: 160px;
+    height: 100%;
+    background: #04020c;
+    padding: 35px 0;
+}
+.navbar .sidebar h2{
+    color: white;
+    text-shadow: 2px 2px 2px red;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    font-family: 'Oswald', sans-serif;
+}
+.navbar .sidebar ul li{
+    padding: 15px;
+    font-size: 26px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.navbar .sidebar ul li a{
+    color: #bdb8d7;
+    text-shadow: 1.5px 1.5px 1.5px red;
+    display: block;
+    text-decoration: dotted;
+    border-color: #04020c;
+}
+.navbar .sidebar ul li a:hover{
+    color: red;
+    text-shadow: 1.5px 1.5px 1.5px white;
+}
+.fa{
+    font-size: 20px;
+    color: aliceblue;
+    width: 30px;
+    margin-left: 7px;
+}
+.container{
+    position: absolute;
+    top: 15px;
+    padding: 6px;
+    margin-left: 160px;
+    column-count: 3;
+}
+img{
+    width: 98%;
+    height: auto;
+    border-radius: 7px;
+    margin-bottom: 14px;
+    box-shadow: 3px 3px 3px wheat;
+}
